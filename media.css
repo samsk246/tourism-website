@@ -1,0 +1,493 @@
+@media (max-width: 1200px) {
+  .main {
+    height: auto;
+  }
+  .login-content{
+    display: block;
+    height: auto;
+  }
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .form-control {
+    margin-top: 20px;
+    width: 50vw;
+  }
+ 
+  .btn-control {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .slider{
+    display: flex;
+    width: 27%;
+    height: 55%;
+  }
+  .slider h1{
+    top: 10%;
+    margin-bottom: +100px;
+  }
+  .box-slider{
+    /* height: 108%; */
+    width: 100%;
+    margin-top: 5%;
+  }
+
+
+  .row{
+    display: flex;
+    align-items: center;
+  }
+  .feature-img img{
+    width: 290px;
+    height: 340px;
+   
+}
+.features .fa-map-marker-alt{
+  margin-left: -10px;
+}
+  .col {
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+  }
+  .col img{
+    width: 95%;
+  }
+  /* End of Features section */
+    /* Starting of Gallery section */
+
+    .col2{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .gallery-box{
+    width: 30%;
+    height: 300px;
+    box-sizing: border-box;
+  }
+  .gallery-box img{
+    border-radius: 10px;
+    background-size: cover;
+    transition: 0.5s;
+    margin-left: 20px;
+    
+}
+/* End of Gallery section */
+  /* starting of feedback */
+  .col5 {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .review {
+    box-shadow: 0 0 10px black;
+    width: 250px;
+    margin-top: 50px;
+  }
+  .feedback img {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    position: relative;
+    margin: 0px 0px -80px -220px;
+  }
+
+  /* End of feedback */
+}
+
+@media (max-width: 900px) {
+  /* starting for nav */
+  nav .logo img {
+    width: 130px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    margin-left: -22px;
+    margin-right: -40px;
+  }
+  nav ul li a {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 6px 6px;
+  }
+  nav {
+    padding: 0 5px 0 5px;
+  }
+  /* End of nav */
+  /* Starting of main */
+  .main {
+    display: block;
+    width: 80%;
+    height: auto;
+    /* height: 70vh; */
+    top: 12%;
+    left: 12%;
+  
+  }
+  .main h1 {
+    font-size: 3rem;
+  }
+  .main h2 {
+    font-size: 2rem;
+  }
+  .login-content h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: rgb(242, 245, 230);
+  }
+  .login-content {
+    display: block;
+    /* height: auto; */
+  }
+  .login-content h2{
+    margin-top: 30px;
+  }
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .form-control {
+    margin-top: 25px;
+    width: 70vw;
+  }
+  .btn-control {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+  /* end of main */
+
+  /* Adding slider */
+  .slider {
+    display: flex;
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    left: 10%;
+    top: 115vh;
+    z-index: 5;
+  }
+  .slider h1{
+    margin: -45px 100px ;
+  }
+  /* Ending of slider */
+  /* Starting of Features section */
+  .features {
+    margin-top: 600px;
+  }
+  .features h1{
+    margin-top: 60px;
+  }
+  .row,
+  .row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .col {
+    padding: 10px;
+    width: 50%;
+    border: 2px solid blueviolet;
+    margin-top: 20px;
+  }
+  .price {
+    border: 2px solid;
+    top: 310px;
+  }
+  /* End of Features section */
+
+  /* Starting of Gallery section */
+
+  .col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    /* margin-left: -80px; */
+    /* margin: 0px auto; */
+  }
+  .gallery-box {
+    margin-top: 30px;
+  }
+  .gallery-box img {
+    width: 300px;
+    height: 300px;
+  }
+  .gallery-box h4 {
+    font-size: 25px;
+    color: rgb(10, 10, 10);
+    margin-left: 90px;
+    text-shadow: -1px 1px 1px rgb(252, 247, 247);
+  }
+  /* End of Gallery section */
+
+  /* starting of feedback */
+  .col5 {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .review {
+    box-shadow: 0 0 10px black;
+    width: 250px;
+    margin-top: 50px;
+  }
+  .feedback img {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    position: relative;
+    margin: 0px 0px -80px -220px;
+  }
+
+  /* End of feedback */
+
+  /* starting of footer  */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .col6 {
+    width: 220px;
+    height: 260px;
+    /* border: 2px solid yellow; */
+    margin: 0px auto;
+  }
+  /* End of footer  */
+
+  /* Starting of Contact */
+  .contact-us{
+    padding: 50px;
+  }
+  .details{
+    flex-direction: column;
+    left: 0px;
+  }
+  .contactinfo{
+    margin-bottom: 40px;
+  }
+  .contact-form{
+    margin-top: 65%;
+    width: 100%;
+    background-color: rgba(12, 212, 212, 0.5);
+  }
+  
+
+
+}
+@media (max-width: 600px) {
+  /* Starting on nav */
+  nav {
+    background-color: rgb(130, 182, 230);
+  }
+  nav .logo img {
+    width: 140px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    margin-left: 37vw;
+  }
+  nav .menu-btn i {
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
+  nav ul {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background-color: rgb(252, 232, 217);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.5s ease;
+    z-index: 50;
+  }
+  #click:checked ~ ul {
+    left: 0;
+  }
+  nav ul li {
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li a {
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a {
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover {
+    background: none;
+    color: cyan;
+    background-color: rgb(8, 8, 8);
+  }
+  /* End of nav */
+  /* Starting of main */
+  .main {
+    display: block;
+    /* height: 60%; */
+    top: 20%;
+    /* position: relative; */
+  }
+  .main h1 {
+    font-size: 2.3rem;
+  }
+  .main h2 {
+    font-size: 1.5rem;
+    /* text-align: left; */
+  }
+  .login-content h2 {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: rgb(242, 245, 230);
+  }
+  .login-content {
+    display: block;
+  }
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-control {
+    margin-top: 20px;
+    width: 60vw;
+  }
+  .btn-control {
+    margin-top: 20px;
+  }
+  /* end of main */
+
+  /* Adding slider */
+  .slider {
+    display: flex;
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    left: 10%;
+    top: 110%;
+    z-index: 5;
+  }
+  .offer h1{
+    margin: -15% auto;
+  }
+  /* Ending of slider */
+  /* Starting of Features section */
+  .features {
+    margin-top: 400px;
+  }
+  .row,
+  .row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .col {
+    padding: 10px;
+    width: 63%;
+    border: 2px solid blueviolet;
+    margin-top: 20px;
+  }
+  .price {
+    border: 2px solid;
+    top: 310px;
+  }
+  /* End of Features section */
+
+  /* Starting of Gallery section */
+
+  .col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-left: -80px;
+    /* margin: 0px auto; */
+  }
+  .gallery-box {
+    margin-top: 30px;
+  }
+  .gallery-box img {
+    width: 300px;
+    height: 300px;
+  }
+  .gallery-box h4 {
+    font-size: 25px;
+    color: rgb(10, 10, 10);
+    margin-left: 90px;
+    text-shadow: -1px 1px 1px rgb(252, 247, 247);
+  }
+  /* End of Gallery section */
+
+  /* starting of feedback */
+  .col5 {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .review {
+    box-shadow: 0 0 10px black;
+    width: 250px;
+    margin-top: 50px;
+  }
+  .feedback img {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    position: relative;
+    margin: 0px 0px -80px -220px;
+  }
+
+  /* End of feedback */
+
+  /* starting of footer  */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .col6 {
+    width: 220px;
+    height: 260px;
+    /* border: 2px solid yellow; */
+    margin: 0px auto;
+  }
+  /* End of footer  */
+}
+/* Starting of Contact */
+
+.contact-us{
+  position: relative;
+  min-height: 90vh;
+  padding: 20px 20px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+

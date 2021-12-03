@@ -1,0 +1,155 @@
+.head{
+    background-image: url(/goa.jfif);
+    height: 110vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    background-color: rgb(56, 56, 55,0.6);
+}
+.gallery{
+    margin-top: 5%;
+}
+.banner{
+    margin-top: 5%;
+}
+.info h1{
+    font-size: 35px;
+    color: rgb(8, 6, 8);
+    text-shadow: 1px 1px 1px white;
+}
+.info p{
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+/* Adding slider */
+.slider{
+    display: flex;
+    width: 26%;
+    height: 50%;
+    position: absolute;
+    left: 71%;
+    top: 25%;
+    /* border: 2px solid red; */
+    margin: 0px auto;
+   
+}
+.slider h1{
+margin: -50px auto;
+display: inline-block;
+color: rgb(238, 75, 11);
+font-size: 2rem;
+text-shadow: 1px 1px rgb(167, 233, 44);
+--animate-duration: 5s;
+/* border: 2px solid; */
+/* height: 80px; */
+
+
+}
+.box-slider{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid; */
+    animation: slider 120s infinite alternate;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes slider{
+    0%{background-image: url(/goa1.jfif);
+       
+
+    }
+    10%{background-image: url(/goa2.jfif);
+
+    }
+    20%{background-image: url(/goa3.jfif);
+
+    }
+    30%{background-image: url(/goa4.jfif);
+
+    }
+    40%{background-image: url(/goa5.jfif);
+
+    }
+    50%{background-image: url(/goa6.jfif);
+
+    }
+    60%{background-image: url(/goa7.jfif);
+
+    }
+    70%{background-image: url(/goa8.jfif);
+
+    }
+    80%{background-image: url(/goa9.jfif);
+
+    }
+    90%{background-image: url(/goa10.jfif);
+
+    }
+    100%{background-image: url(/goa11.jfif);
+
+    }
+}
+
+@media (max-width: 900px){
+    .slider {
+        display: flex;
+        width: 80%;
+        height: 70%;
+        position: absolute;
+        left: 10%;
+        top: 120%;
+        z-index: 5;
+      }
+     
+      .info h1{
+        font-size: 28px;
+        color: rgb(8, 6, 8);
+        text-shadow: 1px 1px 1px white;
+    }
+    .info p{
+        font-size: 16px;
+        color: white;
+        letter-spacing: 0.9px;
+    }
+    .banner{
+        margin-top: 10%;
+    }
+    .gallery{
+        margin-top: 60%;
+    }
+    
+}
+@media (max-width: 600px){
+    .main{
+        height: auto;
+    }
+    .slider {
+        display: flex;
+        width: 80%;
+        height: 70%;
+        position: absolute;
+        left: 10%;
+        top: 110%;
+        z-index: 5;
+      }
+      .info h1{
+        font-size: 24px;
+        color: rgb(8, 6, 8);
+        text-shadow: 1px 1px 1px white;
+    }
+    .info p{
+        font-size: 16px;
+        color: white;
+        /* letter-spacing: 0.9px; */
+    }
+    .banner{
+        margin-top: 85%;
+    }
+}
